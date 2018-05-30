@@ -2,7 +2,7 @@ Tiger cryptographic hash function for Go
 
 -----
 
-[![Build Status](https://drone.io/github.com/cxmcc/tiger/status.png)](https://drone.io/github.com/cxmcc/tiger/latest)
+[![Build Status](https://travis-ci.org/cxmcc/tiger.svg?branch=master)](https://travis-ci.org/cxmcc/tiger)
 [![GoDoc](http://godoc.org/github.com/cxmcc/tiger?status.png)](http://godoc.org/github.com/cxmcc/tiger)
 
 
@@ -11,7 +11,7 @@ Tiger cryptographic hash function for Go
 * Tiger cryptographic hash function is designed by Ross Anderson and Eli Biham in 1995.
 * The size of a Tiger hash value is 192 bits. Truncated versions (Tiger/128, Tiger/160) are simply prefixes of Tiger/192.
 * Tiger2 is a variant where the message is padded by first appending a byte 0x80, rather than 0x01 as in the case of Tiger.
-* Links: [paper](http://www.cs.technion.ac.il/~biham/Reports/Tiger/), [wikipedia](http://en.wikipedia.org/wiki/Tiger_(cryptography\))
+* Links: [paper](http://www.cs.technion.ac.il/~biham/Reports/Tiger/), [wikipedia](http://en.wikipedia.org/wiki/Tiger_\(cryptography\))
 
 ### API Documentation
 
